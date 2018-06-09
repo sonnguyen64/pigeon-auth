@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+            <form name="registerForm" class="form-horizontal" role="form" novalidate="novalidate">
+                <h3 align="center">Register</small></h3>
+                <br/>
+
+                <div class="form-group">
+                    <input type="text" id="{{ credentials[0].column }}" name="{{ credentials[0].column }}" class="form-control input-lg" placeholder="{{ credentials[0].display }}" data-ng-model="user[credentials[0].column]">
+                </div>
+
+                <div class="form-group">
+                    <input type="password" id="{{ credentials[1].column }}" name="{{ credentials[1].column }}" class="form-control input-lg" placeholder="{{ credentials[1].display }}" data-ng-model="user[credentials[1].column]">
+                </div>
+
+                <div data-ng-repeat="field in info">
+                    <div class="form-group">
+                        <input type="text" id="{{ field.column }}" name="{{ field.column }}" class="form-control input-lg" placeholder="{{ field.display }}" data-ng-model="user[field.column]">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-6"><a href="{{ loginPage }}" class="btn btn-success btn-block btn-lg">Log In</a></div>
+                		<div class="col-xs-12 col-md-6">
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" data-ng-click="registerUser()">Register
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

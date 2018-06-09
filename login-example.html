@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="pigeon-auth">
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Bootstrap -->
+    <link href="pigeon-auth/css/bootstrap.min.css" rel="stylesheet" />
+</head>  
+<body>
+    
+    <pigeon-login
+        user-table="user"
+        user-credentials="email,password"
+        user-credentials-display="Email,Password"
+        default-page="example.html"
+        register-page="register-example.html">
+    </pigeon-login>
+
+    <!-- jQuery – required for Bootstrap's JavaScript plugins) -->
+    <script src="pigeon-auth/js/jquery.min.js"></script>
+    <!-- All Bootstrap plug-ins file -->
+    <script src="pigeon-auth/js/bootstrap.min.js"></script>
+    <!-- AngularJS -->
+    <script src="pigeon-auth/js/angular.min.js"></script>
+    <!-- Pigeon Auth -->
+    <script src="pigeon-auth/js/pigeon-auth.js"></script> 
+    
+</body>
+</html>

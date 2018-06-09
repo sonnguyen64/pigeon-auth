@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row" style="margin-top:20px">
+        <div class="col-xs-10 col-sm-6 col-md-4 col-xs-offset-1 col-sm-offset-3 col-md-offset-4">
+            <form role="form" name="loginForm">
+                <fieldset>
+                    <h3 align="center">Log In</h3>
+                    <br/>
+                    <div class="form-group">
+                        <input type="text" id="{{ credentials[0].column }}" name="{{ credentials[0].column }}" class="form-control input-lg" placeholder="{{ credentials[0].display }}" data-ng-model="user[credentials[0].column]" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="{{ credentials[1].column }}" name="{{ credentials[1].column }}" class="form-control input-lg" placeholder="{{ credentials[1].display }}" data-ng-model="user[credentials[1].column]" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6">
+                            <a href="{{ registerPage }}" class="btn btn-lg btn-primary btn-block">Register</a>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6">
+                            <button type="submit" class="btn btn-lg btn-success btn-block" data-ng-click="loginUser()" data-ng-disabled="loginForm.$invalid">Log In</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
