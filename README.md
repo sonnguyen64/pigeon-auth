@@ -37,7 +37,7 @@ Usage of Pigeon Login directive:
 ```
 ### Pigeon Login Settings
 - `user-table` - MySQL table's name containing user's credentials. 
-- `user-credentials` - User credentials in MySQL's `user-table`, including user identification (such as *username*, *email*, *id*, etc.) and user password, separated by `,`. 
+- `user-credentials` - User credentials in MySQL's `user-table`, including user identification (*username*, *email*, *id*, etc.) and user password, separated by `,`. 
 - `user-credentials-display` - Fields' names of `user-credentials` in User Login form, must be corresponded to `user-credentials`.
 - `default-page` - Page redirected to after logging in.
 - `register-page` - Register page.
@@ -64,7 +64,7 @@ Usage of Pigeon Register directive:
 ```
 ### Pigeon Register Settings
 - `user-table` - MySQL table's name containing user's credentials.
-- `user-credentials`- User credentials in MySQL's `user-table`, including user identification (such as *username*, *email*, *id*, etc.) and user password, separated by `,`. 
+- `user-credentials`- User credentials in MySQL's `user-table`, including user identification (*username*, *email*, *id*, etc.) and user password, separated by `,`. 
 - `user-credentials-display` - Fields' names of `user-credentials` in User Login form, must be corresponded to `user-credentials`.
 - `user-info`- Additional user information in MySQL's `user-table`, separated by `,`.
 - `user-info-display` - Fields' names of `user-info` in User Login form, must be corresponded to `user-info`.
@@ -85,5 +85,5 @@ Usage of Pigeon Register directive:
 </pigeon-auth>
 ```
 ### Pigeon Auth Settings
-- `require-auth` - MySQL table's name containing user's credentials.
-- `login-page`- MySQL columns' names for authenticating user, separated by `,`.
+- `require-auth` - Require login to access the page or not.
+- `login-page`- Login page.
