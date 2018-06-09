@@ -73,7 +73,7 @@ Usage of Pigeon Register directive:
 
 ### Screenshot
 
-![Register Page Example](https://i.imgur.com/piVO19A.png)
+![Register Page Example](https://i.imgur.com/RUc61Zu.png)
 
 ## 3. Define Authentication for Specific Page
 ### Pigeon Auth directive
