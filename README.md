@@ -21,7 +21,7 @@ As soon as you downloaded all the plugins, just includes all the plugins into yo
 A simple database configuration is required to connect and retrieve the data from SQL database. The database configuration is stored in **pigeon-core** directory. Fill in the database configuration in **configdb-example.php** and rename the file to **configdb.php**.
 
 # How to use?
-## Step 1: Create Login Page
+## 1. Create Login Page
 In order to create Login Page, you are required to include **pigeon-auth** HTML tag.
 ### Pigeon Login directive
 Usage of Pigeon Login directive:
@@ -46,7 +46,7 @@ Usage of Pigeon Login directive:
 
 ![Login Page Example](https://i.imgur.com/lB3D78Q.png)
 
-## Step 2: Create Register Page
+## 2. Create Register Page
 In order to create Register Page, you are required to include **pigeon-auth** HTML tag.
 ### Pigeon Register directive
 Usage of Pigeon Register directive:
@@ -75,7 +75,7 @@ Usage of Pigeon Register directive:
 
 ![Register Page Example](https://i.imgur.com/piVO19A.png)
 
-## Step 3: Create Authentication
+## 3. Define Authentication for Specific Page
 ### Pigeon Auth directive
 ```html
 <!-- example.html -->
@@ -87,3 +87,6 @@ Usage of Pigeon Register directive:
 ### Pigeon Auth Settings
 - `require-auth` - Require login to access the page or not.
 - `login-page`- Login page.
+
+## 4. User Logout
+Redirect the page to Login Page or Register Page, user will be automatically logged out from the system.
