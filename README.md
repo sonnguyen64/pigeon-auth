@@ -69,7 +69,7 @@ Usage of Pigeon Register directive:
 - `user-info`- Additional user information in MySQL's `user-table`, separated by `,`.
 - `user-info-display` - Fields' names of `user-info` in User Login form, must be corresponded to `user-info`.
 - `default-page` - Page redirected to after successfully registered.
-- `register-page` - Login page.
+- `login-page` - Login page.
 
 ### Screenshot
 
