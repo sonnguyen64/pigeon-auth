@@ -13,9 +13,9 @@ As soon as you downloaded all the plugins, just includes all the plugins into yo
 - jQuery
 - Bootstrap
 - AngularJS
-- Pigeon Table
+- Pigeon Auth
 
-*** If your project is running in PHP, you can insert the "includes.php" to include all the dependencies. The **includes.php** file is located in **pigeon-auth/php/includes.php**.
+If your project is running in PHP, you can insert the "includes.php" to include all the dependencies. The **includes.php** file is located in **pigeon-auth/php/includes.php**.
 
 ## Database Configuration
 A simple database configuration is required to connect and retrieve the data from SQL database. The database configuration is stored in **pigeon-core** directory. Fill in the database configuration in **configdb-example.php** and rename the file to **configdb.php**.
