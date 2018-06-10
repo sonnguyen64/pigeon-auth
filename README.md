@@ -76,6 +76,7 @@ Usage of Pigeon Register directive:
 ![Register Page Example](https://i.imgur.com/RUc61Zu.png)
 
 ## 3. Define Authentication for Specific Page
+In order to authenticate the page, you are required to include **pigeon-auth** HTML tag.
 ### Pigeon Auth directive
 ```html
 <!-- example.html -->
