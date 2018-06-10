@@ -36,7 +36,7 @@ Usage of Pigeon Login directive:
 </pigeon-login>
 ```
 ### Pigeon Login Settings
-- `user-table` - MySQL table's name containing user's credentials. 
+- `user-table` - MySQL table containing user's credentials. 
 - `user-credentials` - User credentials in MySQL's `user-table`, including user identification (*username*, *email*, *id*, etc.) and user password, separated by `,`. 
 - `user-credentials-display` - Fields' names of `user-credentials` in User Login form, must be corresponded to `user-credentials`.
 - `default-page` - Page redirected to after logging in.
@@ -63,7 +63,7 @@ Usage of Pigeon Register directive:
 </pigeon-register>
 ```
 ### Pigeon Register Settings
-- `user-table` - MySQL table's name containing user's credentials.
+- `user-table` - MySQL table containing user's credentials.
 - `user-credentials`- User credentials in MySQL's `user-table`, including user identification (*username*, *email*, *id*, etc.) and user password, separated by `,`. 
 - `user-credentials-display` - Fields' names of `user-credentials` in User Login form, must be corresponded to `user-credentials`.
 - `user-info`- Additional user information in MySQL's `user-table`, separated by `,`.
